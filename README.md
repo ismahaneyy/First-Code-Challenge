@@ -3,9 +3,21 @@ This is my first ever  code challenge where I'm to do 3 code challenges.
 
 # Description
 
-This repository has 3 code challenges. The first prompts the user to input student marks.Then outputs the correct grade. The second takes as input the speed of a car e.g 80. If the speed is less than 70, it prints “Ok”. Otherwise, for every 5 km/s above the speed limit (70), it gives the driver one demerit point and prints the total number of demerit points.The third calculates an individual’s Net Salary by getting the inputs of basic salary and benefits. Calculates the payee (i.e. Tax), NHIFDeductions, NSSFDeductions, gross salary, and net salary.
+# Challenge One
 
-Language Used 
+Click on CodeChallenge1.js file where you will be required to input students marks. upon inputting the marks click okay and a grade will be assigned to the max inputed where A > 79, B - 60 to 79, C - 59 to 49, D - 40 to 49, E - less 40. input should be between 0 and 100 to view output grade press F12 it will directly open console on your browser alternatively you can right click on the page, you'll be prompted with a dropdown menu click on inspect and click on console which will be at the top of the page next to Elements.
+
+ # Challenge Two.
+
+  Click on CodeChallenge2.js where you will be required to input car speed. upon inputting the speed click okay.
+  For speeds ranging from zero to seventy returns “Ok”. for every 5 km/s above the speed limit of 70 one demerit point is added and prints the total number of demerit points.
+  If demerit point is greater than 12 points, the License is suspended. to view output press F12 it will directly open console on your browser alternatively you can right-click on the page, you'll be prompted with a dropdown menu click on inspect and click on console which will be at the top of the page next to Elements.
+
+# Challenge three
+
+Click on CodeChallenge3.js file where you will be required to input net salary and benefits respectfully. upon input click okay. it will return calculate an individual’s Net Salary by getting the inputs of basic salary and benefits.to view output press F12 it will directly open console on your browser alternatively you can right-click on the page, you'll be prompted with a dropdown menu click on inspect and click on console which will be at the top of the page next to Elements.
+
+# Language Used 
   JavaScript
 
 # Setup instructions
@@ -21,7 +33,7 @@ Incase of any enquiries, be sure to email me at
 licious.mayarah@gmail.com
 
 # License
-MIT Licence
+ISC
 Copyright (c) 2022 ismahaneyy
 
 # Author
