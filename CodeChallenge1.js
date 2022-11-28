@@ -1,4 +1,5 @@
 //enter prompts to input student marks
+function grade(){
 let marks = prompt("Input Student Marks");
 //using if else statement to grade students according to the marks
 if (marks > 79 && marks <= 100) {
@@ -12,5 +13,4 @@ if (marks > 79 && marks <= 100) {
   } else if (marks > 40) {
     console.log("Grade:E");
   }
-
-
+}
