@@ -1,4 +1,4 @@
-//input speed of Car and demerit Points of a Car
+//input speed of Car and thee demerit Points of a Car
 function speedOfCar(){
   let speedOfCar = 85;
 let demeritPointsOfCar = (speedOfCar-70)/5;
