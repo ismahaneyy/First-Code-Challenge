@@ -11,6 +11,22 @@ let pension = 6000;
 let nssfDeductions = pension * 0.06;
 console.log("NSSF:" + nssfDeductions);
 
+//To calculate the gross tax which is the tax charged per each slab acoording to gross salary one earns
+if (grossSalary >0 && grossSalary <= 24000) {
+    grossTax = 24000 * 0.1;
+} else if(grossSalary > 24000 && grossSalary <= 32333) {
+    grossTax = (32333 - 24000)*0.25;
+} else if (grossSalary >32333){
+    grossTax = (grossSalary - 32333)* 0.3;
+}
+ console.log("grossTax:" + grossTax)
+    
+//to calculate  the PAYE which is gross tax less personal relief whereby the personal relief is 2400.
+if(relief = 2400) {
+    PAYE = grossTax - relief
+}
+console.log ("PAYE:" + PAYE);
+
 
 //To calculate NHIF Deductions
 if(grossSalary>0 && grossSalary<= 5999){
@@ -50,22 +66,8 @@ if(grossSalary>0 && grossSalary<= 5999){
 }
 console.log("NHIF:" + NHIFDeductions);
 
-//To calculate the gross tax which is the tax charged per each slab acoording to gross salary one earns
-if (grossSalary >0 && grossSalary <= 24000) {
-    grossTax = 24000 * 0.1;
-} else if(grossSalary > 24000 && grossSalary <= 32333) {
-    grossTax = (32333 - 24000)*0.25;
-} else if (grossSalary >32333){
-    grossTax = (grossSalary - 32333)* 0.3;
-}
- console.log("grossTax:" + grossTax)
-    
-//to calculate  the PAYE which is gross tax less personal relief whereby the personal relief is 2400.
-if(relief = 2400) {
-    PAYE = grossTax - relief
-}
-console.log ("PAYE:" + PAYE);
 
-//to calculate the net salary which is gross salary less all the deductions
+
+//to calculate the net salary which is gross salary less all deductions
 let netSalary = grossSalary - (PAYE + NHIFDeductions + nssfDeductions);
 console.log("NetSalary:" + netSalary);
