@@ -60,7 +60,7 @@ if (grossSalary >0 && grossSalary <= 24000) {
 }
  console.log("grossTax:" + grossTax)
     
-//to calculate  the PAYE which is gross tax less personal relief and the personal relief is 2400.
+//to calculate  the PAYE which is gross tax less personal relief whereby the personal relief is 2400.
 if(relief = 2400) {
     PAYE = grossTax - relief
 }
