@@ -1,6 +1,6 @@
 //enter prompts to input student marks
 let marks = prompt("Input Student Marks");
-//using if else statement to grade students according to the marks
+//using if else statement to grade each student according to their marks
 if (marks > 79 && marks <= 100) {
     console.log("Grade:A");
   } else if (marks >= 60 && marks <= 79) {
