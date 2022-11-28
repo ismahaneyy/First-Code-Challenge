@@ -1,16 +1,16 @@
-//input speed of a Car and demerit Points of a Car
-let speedOfCar = 90;
-let demeritPointsOfCar = (speedOfCar-70)/5;
-//using if statement to print the speedOfCar for speed of car is less than 70, print OK.
-if(speedOfCar<70){
-    console.log("OK");
-}
-//for every 5km above speed limit(70), we print demerit points and if those points exceed 12 we print License suspended.
-else{
-  console.log("demeritPoints:" + demeritPointsOfCar);
-  if(demeritPointsOfCar>12){
-    console.log("License suspended");
+//enter prompts to input student marks
+let marks = prompt("Input Student Marks");
+//using if else statement to grade students according to the marks
+if (marks > 79 && marks <= 100) {
+    console.log("Grade:A");
+  } else if (marks >= 60 && marks <= 79) {
+    console.log("Grade:B");
+   } else if (marks >=59  && marks <=39){
+    console.log("Grade:C");
+  } else if (marks >= 40 && marks <= 49) {
+    console.log("Grade:D");
+  } else if (marks > 40) {
+    console.log("Grade:E");
   }
-}
 
 
