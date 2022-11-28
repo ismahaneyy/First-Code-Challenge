@@ -39,4 +39,4 @@ ISC
 Copyright (c) 2022 ismahaneyy
 
 # Author
-Ismahan Abdirizak
+Ismahan Abdirizak.
