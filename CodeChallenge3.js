@@ -1,4 +1,4 @@
-//input prompt basic salary and benefit
+//input prompt basic salary and benefit one gets 
 let basicSalary = prompt("Input basic salary earned");
 let benefits = prompt("Input benefits given");
 
@@ -7,8 +7,8 @@ let grossSalary =parseInt(basicSalary)+ parseInt(benefits);
 console.log("grossSalary:" + grossSalary);  
 
 //to calculate the NSSF Deductions.whereby NSSF Deduction is 6% of the pension.
-let pension = 6000
-let nssfDeductions = pension * 0.06
+let pension = 6000;
+let nssfDeductions = pension * 0.06;
 console.log("NSSF:" + nssfDeductions);
 
 
