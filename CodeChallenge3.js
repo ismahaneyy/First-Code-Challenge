@@ -66,7 +66,6 @@ if(relief = 2400) {
 }
 console.log ("PAYE:" + PAYE);
 
-
-//to calculate net salary
+//to calculate the net salary
 let netSalary = grossSalary - (PAYE + NHIFDeductions + nssfDeductions);
 console.log("NetSalary:" + netSalary);
