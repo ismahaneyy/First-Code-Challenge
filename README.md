@@ -23,9 +23,11 @@ Click on CodeChallenge3.js file where you will be required to input net salary a
 # Setup instructions
 
 Open the Terminal command line: [CTRL+ALT+T]
-
+first Change Directory: [cd First-Code-Challenge]
 Clone this repository
-Change Directory: [cd first-code-challenge]
+"type": "git",
+    "url": "git+https://github.com/ismahaneyy/First-Code-Challenge.git"
+
 
 # Contact Informantion
 
