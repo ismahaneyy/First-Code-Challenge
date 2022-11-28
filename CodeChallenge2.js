@@ -1,5 +1,6 @@
 //input speed of Car and demerit Points of a Car
-let speedOfCar = 90;
+function speedOfCar(){
+  let speedOfCar = 85;
 let demeritPointsOfCar = (speedOfCar-70)/5;
 //using if statement to print the speedOfCar for speed of car is less than 70, the output is "OK".
 if(speedOfCar<70){
@@ -12,3 +13,5 @@ else{
     console.log("License suspended");
   }
 }
+}
+speedOfCar();
