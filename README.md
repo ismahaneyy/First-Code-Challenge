@@ -42,7 +42,7 @@ Clone this repository
 # Contact Informantion
 
 Incase of any enquiries, be sure to email me at
-licious.mayarah@gmail.com
+liciousmayarah@gmail.com
 
 # License
 MIT
