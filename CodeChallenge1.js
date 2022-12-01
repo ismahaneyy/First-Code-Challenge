@@ -1,3 +1,4 @@
+const prompt = require('prompt-sync')();
 //enter prompts to input student marks
 let marks = prompt("Input Student Marks");
 //using if else statement to grade students according to ones marks. 
