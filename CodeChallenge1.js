@@ -1,3 +1,4 @@
+function gradeOfStudent(){
 const prompt = require('prompt-sync')();
 //enter prompts to input student marks
 let marks = prompt("Input Student Marks");
@@ -15,4 +16,4 @@ if (marks > 79 && marks <= 100) {
   }else {
     console.log("enter valid marks");
   }
-
+}gradeOfStudent();
