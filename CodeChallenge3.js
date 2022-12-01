@@ -1,3 +1,4 @@
+function netIncome(){
 const prompt = require('prompt-sync')();
 //input prompt basic salary and benefit one gets 
 let basicSalary = prompt("Input basic salary earned");
@@ -72,3 +73,5 @@ console.log("NHIF:" + NHIFDeductions);
 //to calculate the net salary which is gross salary less all deductions
 let netSalary = grossSalary - (PAYE + NHIFDeductions + nssfDeductions);
 console.log("NetSalary:" + netSalary);
+}
+netIncome();
