@@ -1,3 +1,4 @@
+const prompt = require('prompt-sync')();
 //input prompt basic salary and benefit one gets 
 let basicSalary = prompt("Input basic salary earned");
 let benefits = prompt("Input benefits given");
