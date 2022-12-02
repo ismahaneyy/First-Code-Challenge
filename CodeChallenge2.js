@@ -1,6 +1,7 @@
 //input speed of Car and thee demerit Points of a Car
 function speedOfCar(){
-  let speedOfCar = 85;
+  const prompt = require('prompt-sync')();
+  let speedOfCar = prompt("Input Speed of car");
 let demeritPointsOfCar = (speedOfCar-70)/5;
 //using if statement to Print the speedOfCar for speed of car is less than 70, the output is "OK".
 if(speedOfCar<70){
