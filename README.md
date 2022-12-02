@@ -19,7 +19,7 @@
     - v0.1.0
 
 # Setup instructions
-- To use this repo on your machine requires some simple steps
+- To use this repository on your machine requires some simple steps
 
 ### Open a terminal / command line interface on your computer
 
@@ -42,7 +42,7 @@
 - Click on CodeChallenge1.js file where you will be required to input students marks. upon inputting the marks click okay and a grade will be assigned to the max inputed where A > 79, B - 60 to 79, C - 59 to 49, D - 40 to 49, E - less 40. input should be between 0 and 100 to view output grade press F12 it will directly open console on your browser alternatively you can right click on the page, you'll be prompted with a dropdown menu click on inspect and click on console which will be at the top of the page next to Elements.
 
 ### To Run this application
-- Running this application, use the following step:
+- Running this application,open terminal on your vs code then type:
     - node CodeChalleneg1.js
 
 
@@ -53,14 +53,14 @@
 - If demerit point is greater than 12 points, the License is suspended. to view output press F12 it will directly open console on your browser alternatively you can right-click on the page, you'll be prompted with a dropdown menu click on inspect and click on console which will be at the top of the page next to Elements.
 
 ### To Run this application
-- Running this application, use the following step:
+- Running this application,open terminal on your vs code then type:
     - node CodeChallenge2.js
 ## Challenge three: Net Salary Calculator.
 
 - Click on CodeChallenge3.js file where you will be required to input net salary and benefits respectfully. upon input click okay. it will return calculate an individual’s Net Salary by getting the inputs of basic salary and benefits.to view output press F12 it will directly open console on your browser alternatively you can right-click on the page, you'll be prompted with a dropdown menu click on inspect and click on console which will be at the top of the page next to Elements.
 
 ### To Run this application
-- Running this application, use the following step:
+- Running this application,open terminal on your vs code then type:
     - node Challenge3.js
 
 # Author
