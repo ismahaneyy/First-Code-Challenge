@@ -36,15 +36,13 @@
 
 
 # To Run this application
-- Running this application, you can use the following steps.
+- Running this application, use the following steps:
 
-## Install required dependencies from npm
+- Install required dependencies from npm
+     - npm install
 
-- npm install
-
-### To test your work
-
-- npm test
+- To test your work
+     - npm test
 
 # Challenge Description.
 - All the challenges were solved using JavaScript.
