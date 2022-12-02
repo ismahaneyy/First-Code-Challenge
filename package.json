@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ismahaneyy/First-Code-Challenge.git"
+     "type": "git",
+     "url": "git+https://github.com/ismahaneyy/First-Code-Challenge.git"
   },
   "author": "Ismahan Abdirizak",
   "license": "ISC",
