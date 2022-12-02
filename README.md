@@ -61,7 +61,7 @@
 
 ### To Run this application
 - Running this application,open terminal on your vs code then type:
-    - node Challenge3.js
+    - node CodeChallenge3.js
 
 # Author
 - Ismahan Abdirizak.
