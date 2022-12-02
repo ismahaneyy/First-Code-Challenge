@@ -24,11 +24,10 @@
 ### Open a terminal / command line interface on your computer
 
 - Clone the repo by using the following to create a copy on your local machine:
-
-  git clone https://github.com/ismahaneyy/First-Code-Challenge.git
+  - git clone https://github.com/ismahaneyy/First-Code-Challenge.git
+  
 - Change directory to the repo folder:
-
-  cd First-Code-Challenge
+   - cd First-Code-Challenge
 
 ### Open it in Visual Studio Code
 
