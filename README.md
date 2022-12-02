@@ -33,16 +33,6 @@
 
   - code .
 
-
-# To Run this application
-- Running this application, use the following steps:
-
-- Install required dependencies from npm
-     - npm install
-
-- To test your work
-     - npm test
-
 # Challenge Description.
 - All the challenges were solved using JavaScript.
 - Each challenge has its own js file.
@@ -51,16 +41,27 @@
 
 - Click on CodeChallenge1.js file where you will be required to input students marks. upon inputting the marks click okay and a grade will be assigned to the max inputed where A > 79, B - 60 to 79, C - 59 to 49, D - 40 to 49, E - less 40. input should be between 0 and 100 to view output grade press F12 it will directly open console on your browser alternatively you can right click on the page, you'll be prompted with a dropdown menu click on inspect and click on console which will be at the top of the page next to Elements.
 
+### To Run this application
+- Running this application, use the following step:
+    - node CodeChalleneg1.js
+
+
  ## Challenge Two: Speed Detector.
 
 - Click on CodeChallenge2.js where you will be required to input car speed. upon inputting the speed click okay.
 - For speeds ranging from zero to seventy returns “Ok”. for every 5 km/s above the speed limit of 70 one demerit point is added and prints the total number of demerit points.
 - If demerit point is greater than 12 points, the License is suspended. to view output press F12 it will directly open console on your browser alternatively you can right-click on the page, you'll be prompted with a dropdown menu click on inspect and click on console which will be at the top of the page next to Elements.
 
+### To Run this application
+- Running this application, use the following step:
+    - node CodeChallenge2.js
 ## Challenge three: Net Salary Calculator.
 
 - Click on CodeChallenge3.js file where you will be required to input net salary and benefits respectfully. upon input click okay. it will return calculate an individual’s Net Salary by getting the inputs of basic salary and benefits.to view output press F12 it will directly open console on your browser alternatively you can right-click on the page, you'll be prompted with a dropdown menu click on inspect and click on console which will be at the top of the page next to Elements.
- 
+
+### To Run this application
+- Running this application, use the following step:
+    - node Challenge3.js
 
 # Author
 - Ismahan Abdirizak.
