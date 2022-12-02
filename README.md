@@ -47,7 +47,7 @@
 
 - npm test
 
-### Challenge Description.
+## Challenge Description.
 - All the challenges were solved using JavaScript.
 - Each challenge has its own js file.
 
