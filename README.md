@@ -24,9 +24,11 @@
 ### Open a terminal / command line interface on your computer
 
 - Clone the repo by using the following to create a copy on your local machine:
+
   - git clone https://github.com/ismahaneyy/First-Code-Challenge.git
   
 - Change directory to the repo folder:
+
    - cd First-Code-Challenge
 
 ### Open it in Visual Studio Code
@@ -55,6 +57,7 @@
 ### To Run this application
 - Running this application,open terminal on your vs code then type:
     - node CodeChallenge2.js
+
 ## Challenge three: Net Salary Calculator.
 
 - Click on CodeChallenge3.js file where you will be required to input net salary and benefits respectfully. upon input click okay. it will return calculate an individual’s Net Salary by getting the inputs of basic salary and benefits.to view output press F12 it will directly open console on your browser alternatively you can right-click on the page, you'll be prompted with a dropdown menu click on inspect and click on console which will be at the top of the page next to Elements.
